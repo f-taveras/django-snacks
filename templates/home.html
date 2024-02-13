@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>testing</h1>
+
+{% for thing in things %}
+    <h2>{{thing.title}}</h2>
+    
+{% endfor%}
+{% endblock content %}
